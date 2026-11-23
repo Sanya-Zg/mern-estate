@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    avatar: {
+      type: String,
+      default: 'https://pixabay.com/images/download/wanderercreative-blank-profile-picture-973460_1920.png'
+    }
   },
   { timestamps: true },
 );
